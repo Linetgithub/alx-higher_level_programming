@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if a URL is provided as an argument
+# A script that takes, sends requests and displays the size in a URL
 if [ -z "$1" ]; then
     echo "Usage: $0 <URL>"
     exit 1
